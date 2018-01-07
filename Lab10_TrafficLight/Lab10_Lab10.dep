@@ -1,0 +1,11 @@
+Dependencies for Project 'Lab10', Target 'Lab10': (DO NOT MODIFY !)
+F (.\startup.s)(0x5356C08B)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\texas_display\ARM\RV31\INC-I C:\texas_display\ARM\CMSIS\Include-I C:\texas_display\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\TableTrafficLight.c)(0x5A244566)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\texas_display\ARM\RV31\INC-I C:\texas_display\ARM\CMSIS\Include-I C:\texas_display\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\tabletrafficlight.o --omf_browse .\tabletrafficlight.crf --depend .\tabletrafficlight.d)
+I (TExaS.h)(0x5356C08B)
+I (tm4c123gh6pm.h)(0x5356C08B)
+I (PLL.h)(0x5356C08B)
+I (SysTick.h)(0x5356C08B)
+F (.\PLL.c)(0x5356C08B)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\texas_display\ARM\RV31\INC-I C:\texas_display\ARM\CMSIS\Include-I C:\texas_display\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (PLL.h)(0x5356C08B)
+F (.\SysTick.c)(0x5356C08B)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\texas_display\ARM\RV31\INC-I C:\texas_display\ARM\CMSIS\Include-I C:\texas_display\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+F (.\texas.o)(0x5356C08B)()
